@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize app</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__head">
+            <h3 class="card__question"></h3>
+        </div>
+        <div class="card__options">
+            <div class="card__container">
+                <input class="check" id="a" type="radio" name="answer">
+                <label id="aee" for="a"></label>
+            </div>
+            <div class="card__container">
+                <input class="check" id="b" type="radio" name="answer">
+                <label id="bee" for="b"></label>
+            </div>
+            <div class="card__container">
+                <input class="check" id="c" type="radio" name="answer">
+                <label id="cee" for="c"></label>
+            </div>
+            <div class="card__container">
+                <input class="check" id="d" type="radio" name="answer">
+                <label id="dee" for="d"></label>
+            </div>
+        </div>
+        <button id="btn" class="card__btn">Submit</button>
+    </div>
+
+    <section class="score">
+        <div class="score__card">
+            <h1 class="score__text">Your Score</h1>
+            <h1 class="score__score">12/45</h1>
+            <button class="score__btn">Retry</button>
+        </div>
+    </section>
+    <script type="module" src="/index.js"></script>
+</body>
+</html>
